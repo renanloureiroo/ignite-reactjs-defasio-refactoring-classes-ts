@@ -7,7 +7,7 @@ import ModalAddFood from "../../components/ModalAddFood"
 import ModalEditFood from "../../components/ModalEditFood"
 import { FoodsContainer } from "./styles"
 
-export interface IFood {
+export type IFood = {
   id: number
   name: string
   description: string
